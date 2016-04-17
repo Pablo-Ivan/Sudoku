@@ -1,37 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Algoritmo de Recursión</title>
+  <title>PS-Doku</title>
   <meta charset="UTF-8" />
   <link href="main.css" rel="stylesheet" />
 </head>
-
 <body>
-
   <div class="container">
-
     <div class="heading_container">
       <div class="heading_title">
         <span style="font-family:verdana; font-size: 50px; font-weight: bold">Sudoku</span>
       </div>
     </div>
-
     <table class="sudoku_grid" cellspacing="2" cellpadding="0"></table>
-
     <div class="controls_container">
       <div class="button solve_button" onclick="solve()">
         Resolver
       </div>
-
       <div class="button clear_button" onclick="clearGrid()">
         Reiniciar
       </div>
     </div>
   </div>
-
   <script type="text/javascript" src="jquery-1.11.2.min.js"></script>
-
   <script type="text/javascript">
     $(document).ready(function() {
       // Main grid
@@ -60,10 +51,7 @@
       }
     });
   </script>
-
   <script src="solver.js"></script>
-
-
   <script type="text/javascript">
     function isNumberKey(evt) {
       var charCode = (evt.which) ? evt.which : event.keyCode;
@@ -115,7 +103,6 @@
     }
   </script>
   <hr>
-  <p>Algoritmo desarrollado por <i>Pablo Iván G. Soto</i></p>
+  <a href="https://pablo-ivan.github.io/">Página Principal</a>
 </body>
-
 </html>
