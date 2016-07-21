@@ -4,9 +4,124 @@
 <head>
   <title>PS-doku</title>
   <meta charset="UTF-8" />
-  <link href="main.css" rel="stylesheet" />
+  <link href="main.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Pablo-Ivan/pablo-ivan.github.io/master/stylesheets/w3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  
+  <style>
+    body, h2, h3, h4, h5, h6 {
+      font-family: "Lato", sans-serif;
+    }
+    button, h1, .w3-navbar {
+      font-family: "Montserrat", sans-serif;
+    }
+    #header-img {
+      height: 160px;
+      width: 170px;
+    }
+    #mobile {
+      margin-top: 51px;
+    }
+  </style>
 </head>
 <body>
+  <!--desktop navbar-->
+    <ul class="w3-card-4 w3-large w3-left-align w3-navbar w3-teal w3-top">
+      <li class="w3-hide-large w3-hide-medium w3-opennav w3-right">
+        <a class="w3-hover-white w3-large w3-padding-large w3-teal" href="javascript:void(0);" onclick="toogle()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </li>
+      <li>
+        <a class="w3-padding-large" href="https://pablo-ivan.github.io/">
+          <i class="fa fa-home"></i>
+        </a>
+      </li>
+      <li class="w3-hide-small">
+        <a class="w3-hover-white w3-padding-large" href="http://pablo-ivan.github.io/Alpha-System/">
+          Alpha
+        </a>
+      </li>
+      <li class="w3-hide-small">
+        <a class="w3-hover-white w3-padding-large" href="https://pablo-ivan.github.io/Diplomacy/">
+          Diplomacy
+        </a>
+      </li>
+      <li class="w3-hide-small">
+        <a class="w3-hover-white w3-padding-large" href="https://pablo-ivan.github.io/Predictive-Game/">
+          Pong
+        </a>
+      </li>
+      <li class="w3-hide-small">
+        <a class="w3-hover-white w3-padding-large" href="https://pablo-ivan.github.io/Recursive-Game/">
+          Toe
+        </a>
+      </li>
+      
+      <li class="w3-hide-small w3-right">
+        <a class="w3-hover-white w3-padding-large" href="https://pablo-ivan.github.io/blog/posts.html">
+          Blog
+        </a>
+      </li>
+    </ul>
+    <!--end desktop navbar-->
+    
+    <!--mobile navbar-->
+    <div id="mobile" class="w3-card-4 w3-hide w3-hide-large w3-hide-medium w3-top">
+      <ul class="w3-large w3-left-align w3-navbar w3-teal">
+        <li>
+          <a class="w3-padding-large" href="http://pablo-ivan.github.io/Alpha-System/">
+            Alpha
+          </a>
+        </li>
+        <li>
+          <a class="w3-padding-large" href="https://pablo-ivan.github.io/Diplomacy/">
+            Diplomacy
+          </a>
+        </li>
+        <li>
+          <a class="w3-padding-large" href="https://pablo-ivan.github.io/Predictive-Game/">
+            Pong
+          </a>
+        </li>
+        <li>
+          <a class="w3-padding-large" href="https://pablo-ivan.github.io/Recursive-Game/">
+            Toe
+          </a>
+        </li>
+        
+        <li>
+          <a class="w3-padding-large" href="https://pablo-ivan.github.io/blog/posts.html">
+            Blog
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!--end mobile navbar-->
+    
+    <!--header-->
+    <div class="w3-blue w3-center w3-container w3-padding-64">
+      <div class="w3-padding-64">
+        <h1 class="w3-jumbo w3-margin">PS-Doku</h1>
+        <img alt="Pablo Iván" class="w3-card-2 w3-hide-small w3-round" id="header-img" src="pablo.jpg">
+        <p class="w3-center w3-xlarge">Un sistema para <br> Sudokus</p>
+        
+        <a href="javascript:void(0);">
+          <button class="w3-btn w3-ripple w3-white w3-bottombar w3-border-teal w3-leftbar w3-padding-xlarge w3-large w3-margin-top w3-hover-cyan">
+            Español
+          </button>
+        </a>
+        <a href="en">
+          <button class="w3-btn w3-white w3-bottombar w3-border-teal w3-leftbar w3-padding-xlarge w3-large w3-margin-top w3-hover-cyan">
+            English
+          </button>
+        </a>
+      </div>
+    </div>
+    <!--end header-->
+  
   <div class="container">
     <div class="heading_container">
       <div class="heading_title">
