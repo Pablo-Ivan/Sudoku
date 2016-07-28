@@ -1,2 +1,2 @@
 # Sudoku
-A sudoku solver.
+A sudoku solver built in JavaScript.
